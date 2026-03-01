@@ -10,5 +10,11 @@ jobs:
             - name: message the user
               run: echo $USER
 
+    details:
+        runs-on: ubuntu-latest
+        steps:
+            - name: docker and python version
+              run: docker --version && python --version
+
           
     
