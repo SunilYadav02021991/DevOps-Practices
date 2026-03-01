@@ -7,8 +7,8 @@ jobs:
     greet:
         runs-on: ubuntu-latest
         steps:
-            name: message the user
-            run: echo $USER
+            - name: message the user
+              run: echo $USER
 
           
     
