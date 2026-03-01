@@ -1,0 +1,14 @@
+name: hello
+on:
+  push:
+    branches:[main]
+
+jobs:
+    greet:
+        runner-on: ubuntu-latest
+        steps:
+            name: message the user
+            run: echo $USER
+
+          
+    
